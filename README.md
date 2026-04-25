@@ -5,7 +5,7 @@
 <p align="center">
   <a href="https://github.com/canghe/awesome-gpt-image-2"><img src="https://img.shields.io/github/stars/canghe/awesome-gpt-image-2?style=flat-square&color=rgb(25%2C%20121%2C%20255)" alt="Stars"></a>
   <a href="https://github.com/canghe/awesome-gpt-image-2"><img src="https://img.shields.io/github/forks/canghe/awesome-gpt-image-2?style=flat-square&color=green" alt="Forks"></a>
-  <a href="https://github.com/canghe/awesome-gpt-image-2"><img src="https://img.shields.io/badge/Cases-329-blueviolet?style=flat-square" alt="Cases"></a>
+  <a href="https://github.com/canghe/awesome-gpt-image-2"><img src="https://img.shields.io/badge/Cases-338-blueviolet?style=flat-square" alt="Cases"></a>
   <a href="https://github.com/canghe/awesome-gpt-image-2"><img src="https://img.shields.io/badge/100%25-Original_AI_Rewritten-green?style=flat-square" alt="Original"></a>
 </p>
 
@@ -27,24 +27,24 @@ GPT-Image2 全量开放后，AI 画图从“能不能出图”变成了“能不
 
 - [完整案例总览](docs/gallery.md)
 - [案例画廊 Part 1：例 1-165](docs/gallery-part-1.md)
-- [案例画廊 Part 2：例 166-329](docs/gallery-part-2.md)
+- [案例画廊 Part 2：例 166-338](docs/gallery-part-2.md)
 - [工业级提示词模板与防坑指南](docs/templates.md#section-templates)
 - [完整声明页](docs/disclaimer.md#section-disclaimer)
 
 ## 🗂️ 分类概览
 
-- UI与界面：65
-- 图表与信息可视化：46
+- UI与界面：68
+- 图表与信息可视化：49
 - 海报与排版：58
-- 商品与电商：15
+- 商品与电商：16
 - 品牌与标志：16
 - 建筑与空间：25
 - 摄影与写实：28
 - 插画与艺术：23
 - 人物与角色：10
 - 场景与叙事：7
-- 历史与古风题材：6
-- 文档与出版物：6
+- 历史与古风题材：7
+- 文档与出版物：7
 - 其他应用场景：18
 
 需要按案例细看，直接进：
@@ -97,6 +97,39 @@ GPT-Image2 全量开放后，AI 画图从“能不能出图”变成了“能不
 
 品牌叙事、分解结构和商业化呈现结合得比较完整，适合作为“信息图 + 品牌视觉”混合参考。  
 [查看完整案例](docs/gallery-part-2.md#case-310)
+
+### 苍何新增实测
+
+- [例 330：月下美女直播画面](docs/gallery-part-2.md#case-330)
+- [例 331：西安手绘水彩城市地图](docs/gallery-part-2.md#case-331)
+- [例 332：茶π产品宣传海报](docs/gallery-part-2.md#case-332)
+- [例 333：AI 眼镜爆炸拆解图](docs/gallery-part-2.md#case-333)
+- [例 334：RAG 技术详解图](docs/gallery-part-2.md#case-334)
+- [例 335：朋友圈截图生成](docs/gallery-part-2.md#case-335)
+- [例 336：个人网页视觉设计](docs/gallery-part-2.md#case-336)
+- [例 337：《短歌行》诗词意境图](docs/gallery-part-2.md#case-337)
+- [例 338：《赤壁怀古》长卷图](docs/gallery-part-2.md#case-338)
+
+#### 代表案例 1：月下美女直播画面
+
+[![月下美女直播画面](data/images/case330.png)](docs/gallery-part-2.md#case-330)
+
+高仿直播截图场景，重点看界面氛围、中文弹幕和人物写实感的结合。  
+[查看完整案例](docs/gallery-part-2.md#case-330)
+
+#### 代表案例 2：RAG 技术详解图
+
+[![RAG 技术详解图](data/images/case334.png)](docs/gallery-part-2.md#case-334)
+
+适合用来参考“技术概念 + 信息图排版 + 中文说明模块”的组织方式。  
+[查看完整案例](docs/gallery-part-2.md#case-334)
+
+#### 代表案例 3：《赤壁怀古》长卷图
+
+[![赤壁怀古长卷图](data/images/case338.png)](docs/gallery-part-2.md#case-338)
+
+长卷尺寸、古风叙事和整篇文字排版结合得很完整，适合作为长文本视觉化参考。  
+[查看完整案例](docs/gallery-part-2.md#case-338)
 
 <a name="section-templates"></a>
 
