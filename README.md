@@ -29,7 +29,7 @@ GPT-Image2 全量开放后，AI 画图从“能不能出图”变成了“能不
 - [案例画廊 Part 1：例 1-165](docs/gallery-part-1.md)
 - [案例画廊 Part 2：例 166-329](docs/gallery-part-2.md)
 - [工业级提示词模板与防坑指南](docs/templates.md#section-templates)
-- [声明、Star 趋势图与公众号](docs/disclaimer.md#section-disclaimer)
+- [完整声明页](docs/disclaimer.md#section-disclaimer)
 
 ## 🗂️ 分类概览
 
@@ -125,6 +125,31 @@ GPT-Image2 全量开放后，AI 画图从“能不能出图”变成了“能不
 
 ## 📄 声明与补充
 
-声明、来源说明、Star 趋势图、公众号二维码已移到 [`docs/disclaimer.md`](docs/disclaimer.md)。
+## 致谢与来源说明
 
-如果你觉得这个库有帮助，欢迎点个 Star。
+本项目在整理与研究过程中，参考并使用了 [YouMind](https://youmind.com/) 与 [OpenNana](https://opennana.com/) 的公开提示词库内容，仅用于学习、归纳与方法论研究。相关内容版权归原作者或原平台所有，如有侵权或不当使用请联系处理，我们将第一时间修正或下线。
+
+## 声明 (Disclaimer)
+
+本项目仅整理公开可访问的社区提示词与示例图片，默认用于学习与研究，不主张对第三方原创内容的任何所有权。
+
+本项目里的所有提示词案例和生成的图片，最初的灵感和数据来源均来自公开社区，特别是 [YouMind](https://youmind.com/) 与 [OpenNana](https://opennana.com/)。我们做这个项目，主要是想把好看的案例拆解成可复用的结构化协议，用于学习、归纳和大模型 Agent 接入的自动化测试。
+
+- 我们尽最大努力保留原始来源，包括作者主页、原帖链接与原仓库链接。
+- 涉及第三方内容时，遵循来源仓库声明、`CC BY 4.0` 等许可及对应平台规则。
+- 若你是原作者或权利人，认为某条内容不应展示，请在本仓库发起 Issue 并附上条目链接，我们将在核验后快速下架。
+- 本仓库不保证第三方内容可用于商业用途；商业使用前请自行取得原权利方授权。
+
+**如果你觉得这个库帮到了你，请点亮右上角的 Star ⭐。**
+
+## Star 趋势图
+
+[![Star History Chart](https://api.star-history.com/svg?repos=canghe/awesome-gpt-image-2&type=Date)](https://star-history.com/#canghe/awesome-gpt-image-2&Date)
+
+## 公众号
+
+微信搜 **苍何** 或扫描下方二维码关注苍何的原创公众号，回复 **prompt** 即可获取更多 AI 提示词学习资源。
+
+![苍何微信公众号](https://cdn.tobebetterjavaer.com/stutymore/%E6%89%AB%E7%A0%81_%E6%90%9C%E7%B4%A2%E8%81%94%E5%90%88%E4%BC%A0%E6%92%AD%E6%A0%B7%E5%BC%8F-%E6%A0%87%E5%87%86%E8%89%B2%E7%89%88.png)
+
+补充版本仍保留在 [`docs/disclaimer.md`](docs/disclaimer.md)。
