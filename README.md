@@ -9,7 +9,7 @@
   <a href="https://github.com/canghe/awesome-gpt-image-2"><img src="https://img.shields.io/badge/100%25-Original_AI_Rewritten-green?style=flat-square" alt="Original"></a>
 </p>
 
-> GitHub 首页已做精简适配，完整案例与长文内容已拆分到 `docs/`，避免 GitHub 对超大 README 的截断。
+> 不定期更新最新的玩法，欢迎star。
 
 <a name="section-vision"></a>
 
@@ -29,6 +29,7 @@ GPT-Image2 全量开放后，AI 画图从“能不能出图”变成了“能不
 - [案例画廊 Part 1：例 1-165](docs/gallery-part-1.md)
 - [案例画廊 Part 2：例 166-338](docs/gallery-part-2.md)
 - [工业级提示词模板与防坑指南](docs/templates.md#section-templates)
+- [MIT License](LICENSE)
 - [完整声明页](docs/disclaimer.md#section-disclaimer)
 
 ## 🗂️ 分类概览
@@ -177,12 +178,14 @@ GPT-Image2 全量开放后，AI 画图从“能不能出图”变成了“能不
 
 ## Star 趋势图
 
-[![Star History Chart](https://api.star-history.com/svg?repos=canghe/awesome-gpt-image-2&type=Date)](https://star-history.com/#canghe/awesome-gpt-image-2&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=freestylefly/awesome-gpt-image-2&type=Date)](https://star-history.com/#canghe/awesome-gpt-image-2&Date)
 
 ## 公众号
 
 微信搜 **苍何** 或扫描下方二维码关注苍何的原创公众号，回复 **AI** 即可获取更多 AI 提示词学习资源。
 
-![苍何微信公众号](https://cdn.tobebetterjavaer.com/stutymore/%E6%89%AB%E7%A0%81_%E6%90%9C%E7%B4%A2%E8%81%94%E5%90%88%E4%BC%A0%E6%92%AD%E6%A0%B7%E5%BC%8F-%E6%A0%87%E5%87%86%E8%89%B2%E7%89%88.png)
+![苍何微信公众号](data/images/公众号.png)
 
-补充版本仍保留在 [`docs/disclaimer.md`](docs/disclaimer.md)。
+## 📜 开源协议
+
+本项目采用 [MIT License](LICENSE) 开源。你可以在保留许可声明的前提下自由使用、修改、分发与二次开发。
