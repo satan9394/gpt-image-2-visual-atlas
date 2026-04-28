@@ -4,19 +4,14 @@
 
 ## 使用
 
-推荐用本地静态服务预览：
-
-```bash
-python -m http.server 8080
-```
-
-然后打开：
+直接打开：
 
 ```text
-http://localhost:8080
+index.html     # 中文版
+index-en.html  # 英文版
 ```
 
-也可以直接打开 `index.html`，但部分浏览器会限制本地文件读取 `data.json`。
+两个入口都已经内联数据，不需要启动本地服务，也不会因为浏览器限制 `file://` 读取 `data.json` 而空白。
 
 ## 数据来源
 

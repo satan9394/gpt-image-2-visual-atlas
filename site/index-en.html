@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>GPT Image 2 视觉图谱</title>
-<meta name="description" content="一个基于 awesome-gpt-image-2 数据整理的 GPT Image 2 案例视觉图谱。">
+<title>GPT Image 2 Visual Atlas</title>
+<meta name="description" content="A standalone visual atlas built from awesome-gpt-image-2 case data.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&family=JetBrains+Mono:wght@400;500&family=Noto+Serif+SC:wght@500;700;900&display=swap" rel="stylesheet">
@@ -16,31 +16,31 @@
 <div class="app">
   <header class="topbar">
     <div>
-      <div class="eyebrow">独立可视化索引<a class="lang-link" href="index-en.html">English</a></div>
-      <h1>GPT Image 2<br>视觉图谱</h1>
-      <p class="subtitle">基于 awesome-gpt-image-2 案例数据整理的可视化浏览器。左侧按类型筛选，右侧快速浏览图片、来源和提示词，适合查找灵感、复用模板与做提示词研究。</p>
+      <div class="eyebrow">Independent visual index<a class="lang-link" href="index.html">中文</a></div>
+      <h1>GPT Image 2<br>Visual Atlas</h1>
+      <p class="subtitle">A standalone browser for GPT Image 2 case data from awesome-gpt-image-2. Filter by category, scan images, inspect sources, and copy prompts or reusable templates without reading through Markdown files.</p>
     </div>
     <div class="stats" aria-label="Stats">
-      <div class="stat"><strong id="statCases">--</strong><span>案例</span></div>
-      <div class="stat"><strong id="statCats">--</strong><span>分类</span></div>
-      <div class="stat"><strong id="statTpls">--</strong><span>模板</span></div>
+      <div class="stat"><strong id="statCases">--</strong><span>Cases</span></div>
+      <div class="stat"><strong id="statCats">--</strong><span>Categories</span></div>
+      <div class="stat"><strong id="statTpls">--</strong><span>Templates</span></div>
     </div>
   </header>
   <main class="workbench">
     <aside class="sidebar" aria-label="Control">
       <div class="sidebar-head">
-        <p class="sidebar-title">控制台</p>
-        <div class="search"><input id="searchInput" type="search" placeholder="搜索标题、来源或提示词" autocomplete="off"><button class="clear-search" id="clearSearch" aria-label="Clear">x</button></div>
-        <div class="view-tabs"><button class="view-tab active" id="galleryTab" type="button">画廊</button><button class="view-tab" id="templateTab" type="button">模板</button></div>
+        <p class="sidebar-title">Control</p>
+        <div class="search"><input id="searchInput" type="search" placeholder="Search title, source, or prompt" autocomplete="off"><button class="clear-search" id="clearSearch" aria-label="Clear">x</button></div>
+        <div class="view-tabs"><button class="view-tab active" id="galleryTab" type="button">Gallery</button><button class="view-tab" id="templateTab" type="button">Templates</button></div>
       </div>
       <div class="category-list" id="categoryList"></div>
     </aside>
-    <section class="content"><div class="toolbar"><div><strong id="resultCount">--</strong> 条结果 <span id="activeLabel"></span></div><div id="generatedAt"></div></div><div class="gallery" id="gallery"></div><div class="templates" id="templates"></div></section>
+    <section class="content"><div class="toolbar"><div><strong id="resultCount">--</strong> results <span id="activeLabel"></span></div><div id="generatedAt"></div></div><div class="gallery" id="gallery"></div><div class="templates" id="templates"></div></section>
   </main>
-  <footer class="footer"><p>数据来源于 <a href="https://github.com/freestylefly/awesome-gpt-image-2" target="_blank" rel="noopener noreferrer">freestylefly/awesome-gpt-image-2</a>. 本项目是独立整理与可视化版本，感谢原项目作者与社区贡献者。</p></footer>
+  <footer class="footer"><p>Data source: <a href="https://github.com/freestylefly/awesome-gpt-image-2" target="_blank" rel="noopener noreferrer">freestylefly/awesome-gpt-image-2</a>. This is an independent visualization project. Thanks to the original authors and community contributors.</p></footer>
 </div>
-<div class="modal-layer" id="modalLayer" role="dialog" aria-modal="true"><button class="modal-close" id="modalClose" type="button" aria-label="关闭">x</button><button class="modal-nav prev" id="modalPrev" type="button" aria-label="上一个">‹</button><button class="modal-nav next" id="modalNext" type="button" aria-label="下一个">›</button><article class="modal"><div class="modal-media"><img id="modalImage" src="" alt=""></div><div class="modal-info" id="modalInfo"></div></article></div>
-<div class="toast" id="toast" aria-live="polite">已复制</div>
+<div class="modal-layer" id="modalLayer" role="dialog" aria-modal="true"><button class="modal-close" id="modalClose" type="button" aria-label="Close">x</button><button class="modal-nav prev" id="modalPrev" type="button" aria-label="Previous">‹</button><button class="modal-nav next" id="modalNext" type="button" aria-label="Next">›</button><article class="modal"><div class="modal-media"><img id="modalImage" src="" alt=""></div><div class="modal-info" id="modalInfo"></div></article></div>
+<div class="toast" id="toast" aria-live="polite">Copied</div>
 <script type="application/json" id="dataPayload">{
   "meta": {
     "total_cases": 358,
@@ -4701,7 +4701,7 @@
   ]
 }</script>
 <script>
-const I18N = {"lang":"zh-CN","file":"index.html","other":"English","otherHref":"index-en.html","title":"GPT Image 2 视觉图谱","desc":"一个基于 awesome-gpt-image-2 数据整理的 GPT Image 2 案例视觉图谱。","eyebrow":"独立可视化索引","h1":"GPT Image 2<br>视觉图谱","subtitle":"基于 awesome-gpt-image-2 案例数据整理的可视化浏览器。左侧按类型筛选，右侧快速浏览图片、来源和提示词，适合查找灵感、复用模板与做提示词研究。","cases":"案例","cats":"分类","tpls":"模板","control":"控制台","search":"搜索标题、来源或提示词","gallery":"画廊","templates":"模板","all":"全部案例","results":"条结果","allCats":"全部分类","generated":"生成时间","noResult":"没有找到匹配内容。换个关键词或分类试试。","unnamed":"未命名案例","uncategorized":"未分类","noSource":"未提供来源","category":"分类","source":"来源","type":"类型","copyPrompt":"复制提示词","copied":"已复制","copyTextTpl":"复制文本模板","copyJsonTpl":"复制 JSON 模板","loadFail":"无法加载数据","openHint":"如果你是直接打开 HTML，请使用已内联数据的最新版文件。","footer":"数据来源于","footer2":"本项目是独立整理与可视化版本，感谢原项目作者与社区贡献者。","close":"关闭","prev":"上一个","next":"下一个"};
+const I18N = {"lang":"en","file":"index-en.html","other":"中文","otherHref":"index.html","title":"GPT Image 2 Visual Atlas","desc":"A standalone visual atlas built from awesome-gpt-image-2 case data.","eyebrow":"Independent visual index","h1":"GPT Image 2<br>Visual Atlas","subtitle":"A standalone browser for GPT Image 2 case data from awesome-gpt-image-2. Filter by category, scan images, inspect sources, and copy prompts or reusable templates without reading through Markdown files.","cases":"Cases","cats":"Categories","tpls":"Templates","control":"Control","search":"Search title, source, or prompt","gallery":"Gallery","templates":"Templates","all":"All cases","results":"results","allCats":"All categories","generated":"Generated","noResult":"No matching cases. Try another keyword or category.","unnamed":"Untitled case","uncategorized":"Uncategorized","noSource":"No source","category":"Category","source":"Source","type":"Type","copyPrompt":"Copy prompt","copied":"Copied","copyTextTpl":"Copy text template","copyJsonTpl":"Copy JSON template","loadFail":"Unable to load data","openHint":"If you opened this HTML directly, use the latest inline-data file.","footer":"Data source:","footer2":"This is an independent visualization project. Thanks to the original authors and community contributors.","close":"Close","prev":"Previous","next":"Next"};
 (() => {
   const state={data:null,cases:[],templates:[],categories:{},activeCategory:'all',query:'',view:'gallery',filtered:[],modalIndex:-1};
   const el={statCases:byId('statCases'),statCats:byId('statCats'),statTpls:byId('statTpls'),generatedAt:byId('generatedAt'),resultCount:byId('resultCount'),activeLabel:byId('activeLabel'),categoryList:byId('categoryList'),gallery:byId('gallery'),templates:byId('templates'),searchInput:byId('searchInput'),clearSearch:byId('clearSearch'),galleryTab:byId('galleryTab'),templateTab:byId('templateTab'),modalLayer:byId('modalLayer'),modalClose:byId('modalClose'),modalPrev:byId('modalPrev'),modalNext:byId('modalNext'),modalImage:byId('modalImage'),modalInfo:byId('modalInfo'),toast:byId('toast')};

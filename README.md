@@ -8,6 +8,7 @@
 
 ## 功能
 
+- 中英双入口：`site/index.html` 为中文版，`site/index-en.html` 为英文版，避免界面文案中英混排。
 - 左侧分类筛选，避免横向分类栏溢出或遮挡页面。
 - 实时搜索标题、来源、图片描述和提示词正文。
 - 图片画廊卡片浏览，点击查看完整提示词。
@@ -21,7 +22,8 @@
 ├── data/images/          # 案例图片资源
 ├── docs/                 # 原始 Markdown 案例与模板
 ├── site/
-│   ├── index.html        # 静态可视化站点
+│   ├── index.html        # 中文版静态可视化站点，可直接打开
+│   ├── index-en.html     # 英文版静态可视化站点，可直接打开
 │   ├── data.json         # 从 Markdown 提取的结构化数据
 │   ├── generate.py       # 数据生成脚本
 │   └── README.md         # 站点说明
@@ -31,24 +33,19 @@
 
 ## 本地预览
 
-直接打开：
+直接打开中文版本：
 
 ```text
 site/index.html
 ```
 
-如果浏览器限制本地 `fetch("data.json")`，可以启动一个简单静态服务：
-
-```bash
-cd site
-python -m http.server 8080
-```
-
-然后访问：
+或打开英文版本：
 
 ```text
-http://localhost:8080
+site/index-en.html
 ```
+
+两个 HTML 都已经内联 `data.json`，无需启动本地服务。
 
 ## 更新数据
 
